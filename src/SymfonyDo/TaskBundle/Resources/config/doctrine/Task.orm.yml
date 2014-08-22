@@ -1,0 +1,11 @@
+SymfonyDo\TaskBundle\Entity\Task:
+  type: entity
+  table: task
+  id:
+    id:
+      type: integer
+      generator: {strategy: auto}
+  fields:
+    description:
+      type: string
+      length: 255
