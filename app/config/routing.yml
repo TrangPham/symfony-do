@@ -1,0 +1,4 @@
+symfony_do_task:
+    resource: "@SymfonyDoTaskBundle/Resources/config/routing.yml"
+    prefix:   /
+

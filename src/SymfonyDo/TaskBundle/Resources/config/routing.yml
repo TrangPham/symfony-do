@@ -1,0 +1,7 @@
+symfony_do_task_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SymfonyDoTaskBundle:Default:index }
+
+symfony_do_task_listpage:
+	path:	/tasks/{userid}
+	defaults: { _controller: SymfonyDoTaskBundle:Default:list }
