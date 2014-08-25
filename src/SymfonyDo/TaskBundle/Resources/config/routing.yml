@@ -1,7 +1,7 @@
-symfony_do_task_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: SymfonyDoTaskBundle:Default:index }
+SymfonyDoTaskBundle_task:
+  resource: "@SymfonyDoTaskBundle/Resources/config/routing/task.yml"
+  prefix:   /task
 
-symfony_do_task_listpage:
-	path:	/tasks/{userid}
-	defaults: { _controller: SymfonyDoTaskBundle:Default:list }
+SymfonyDoTaskBundle_index:
+  path: /
+  defaults: { _controller: SymfonyDoTaskBundle:Task:index }
